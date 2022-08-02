@@ -24,11 +24,14 @@ const options = [
     { value: 'Oceania', label: 'Oceania' },
 ];
 
-export const Controls = () => {
+export const Controls = ({onSearch}) => {
     const [search, setSearch] = useState('');
     const [region, setRegion] = useState('')
 
-    useEffect(() => {}, [search]);
+    useEffect(() => {
+        const regionValue = region?.value || '';
+        onSearch(search, regionValue);
+    }, [search, region]);
 
     return (
         <Wrapper>

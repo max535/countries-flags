@@ -30,8 +30,10 @@ const ModeSwitcher = styled.div`
     color: var(--colors-text);
     font-size: var(--fs-sm);
     cursor: pointer;
-    /* font-weight: var(--fw-bold); */
     text-transform: capitalize;
+
+    display: flex;
+    align-items: center;
 `;
 
 export const Header = () => {
@@ -52,7 +54,7 @@ export const Header = () => {
                         {theme === 'light' ? (
                             <IoMoon size='14px' />
                         ) : (
-                            <IoMoonOutline size='14px' />
+                            <IoMoonOutline size='16px' />
                         )}
                         <span style={{ marginLeft: '0.75rem' }}>
                             {theme} Theme

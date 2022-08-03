@@ -1,5 +1,4 @@
-# React Countries
-
+# REST Countries API with color theme switcher
 ### Оригинальное задание: [frontendmentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca).
 
 #### В учебных целях разработан Single Page Application с выбором темы (светлой или темной), с REST API запросами, поиском и фильтрацией.

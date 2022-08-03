@@ -17,7 +17,7 @@ export function App() {
                 <Routes>
                     <Route
                         exact
-                        path='/'
+                        path='/countries-flags/'
                         element={
                             <Homepage
                                 countries={countries}

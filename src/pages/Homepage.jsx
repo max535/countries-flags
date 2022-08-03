@@ -16,15 +16,17 @@ export const Homepage = ({ countries, setCountries }) => {
         let data = [...countries];
 
         if (region) {
-            data = data.filter(c => c.region.includes(region));
+            data = data.filter((c) => c.region.includes(region));
         }
 
         if (search) {
-            data = data.filter(c => c.name.toLowerCase().includes(search.toLowerCase()));
+            data = data.filter((c) =>
+                c.name.toLowerCase().includes(search.toLowerCase())
+            );
         }
 
         setFilterCountries(data);
-    }
+    };
 
     useEffect(() => {
         if (!countries.length) {

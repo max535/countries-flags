@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import styled from 'styled-components';
 import { IoMoon, IoMoonOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 import { Container } from './Container';
 

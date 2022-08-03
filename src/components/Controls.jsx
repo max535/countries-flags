@@ -9,7 +9,7 @@ const Wrapper = styled.div`
     flex-direction: column;
     align-items: flex-start;
 
-    @media(min-width: 767px) {
+    @media (min-width: 767px) {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
@@ -24,9 +24,9 @@ const options = [
     { value: 'Oceania', label: 'Oceania' },
 ];
 
-export const Controls = ({onSearch}) => {
+export const Controls = ({ onSearch }) => {
     const [search, setSearch] = useState('');
-    const [region, setRegion] = useState('')
+    const [region, setRegion] = useState('');
 
     useEffect(() => {
         const regionValue = region?.value || '';

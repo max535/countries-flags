@@ -43,14 +43,14 @@ const CardListItem = styled.li`
     }
 `;
 
-export const Card = ({img, name, info = [], onClick}) => {
+export const Card = ({ img, name, info = [], onClick }) => {
     return (
         <Wrapper onClick={onClick}>
             <CardImage src={img} alt={name} />
             <CardBody>
                 <CardTitle>{name}</CardTitle>
                 <CardList>
-                    {info.map(el => (
+                    {info.map((el) => (
                         <CardListItem key={el.title}>
                             <b>{el.title}:</b> {el.description}
                         </CardListItem>
@@ -59,4 +59,4 @@ export const Card = ({img, name, info = [], onClick}) => {
             </CardBody>
         </Wrapper>
     );
-}
+};

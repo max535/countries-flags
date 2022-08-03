@@ -8,6 +8,10 @@
 
 
 
+https://user-images.githubusercontent.com/49311021/182539418-dc059fc0-a09d-4b8d-be44-998a4a2d87cd.mov
+
+
+
 <h3>Технологии проекта</h3>
 <p>
   <img alt="React" src="https://shields.io/badge/-React-282c34?logo=react&style=for-the-badge" />

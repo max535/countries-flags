@@ -17,7 +17,7 @@ export function App() {
                 <Routes>
                     <Route
                         exact
-                        path='/countries-flags/'
+                        path='/react-countries/'
                         element={
                             <Homepage
                                 countries={countries}

@@ -15,6 +15,7 @@
   <img alt="html5" src="https://shields.io/badge/-HTML5-E34F26?logo=html5&style=for-the-badge&logoColor=fff" />
   <img alt="yarn" src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white" />
   <img alt="css" src="https://shields.io/badge/-CSS3-1572B6?logo=css3&style=for-the-badge&logoColor=fff" />
+  <img alt="styled-components" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)](https://styled-components.com/" />
 </p>
 
 ## Запуск проекта ⏯

@@ -10,7 +10,10 @@
 
 https://user-images.githubusercontent.com/49311021/182539418-dc059fc0-a09d-4b8d-be44-998a4a2d87cd.mov
 
-
+<video width="320" height="240" autoplay>
+  <source src="https://user-images.githubusercontent.com/49311021/182539418-dc059fc0-a09d-4b8d-be44-998a4a2d87cd.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <h3>Технологии проекта</h3>
 <p>

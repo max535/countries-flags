@@ -14,8 +14,6 @@ export const Details = () => {
 
     const [country, setCountry] = useState(null);
 
-    console.log(country);
-
     useEffect(() => {
         axios
             .get(searchByCountry(name))

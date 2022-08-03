@@ -145,7 +145,7 @@ export const Info = ({
                             ))}
                         </ListItem>
                         <ListItem ListItem>
-                            <b>Currency</b>{' '}
+                            <b>Currency:</b>{' '}
                             {currencies.map((c) => (
                                 <span key={c.code}>{c.name} </span>
                             ))}

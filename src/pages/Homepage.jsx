@@ -32,6 +32,10 @@ export const Homepage = ({ countries, setCountries }) => {
         }
     }, []);
 
+    useEffect(() => {
+        handleSearch();
+    }, [countries]);
+
     return (
         <>
             <Controls onSearch={handleSearch} />
